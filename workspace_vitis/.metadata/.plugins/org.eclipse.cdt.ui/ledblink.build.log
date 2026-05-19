@@ -1,0 +1,25 @@
+15:15:55 **** Build of configuration Debug for project ledblink ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: ledblink.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/bsplib/lib -o "ledblink.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ledblink.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ledblink.elf  |tee "ledblink.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23213	   1160	  22600	  46973	   b77d	ledblink.elf
+'Finished building: ledblink.elf.size'
+' '
+
+15:15:57 Build Finished (took 1s.553ms)
+

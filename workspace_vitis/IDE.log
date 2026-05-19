@@ -1,0 +1,48 @@
+15:02:11 DEBUG : Logs will be stored at 'D:/APP/Vivado/Project/workspace_vitis/IDE.log'.
+15:02:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\APP\Vivado\Project\workspace_vitis\temp_xsdb_launch_script.tcl
+15:02:14 INFO  : Registering command handlers for Vitis TCF services
+15:02:16 INFO  : Platform repository initialization has completed.
+15:02:17 INFO  : XSCT server has started successfully.
+15:02:17 INFO  : Successfully done setting XSCT server connection channel  
+15:02:18 INFO  : plnx-install-location is set to ''
+15:02:18 INFO  : Successfully done setting workspace for the tool. 
+15:02:18 INFO  : Successfully done query RDI_DATADIR 
+15:04:43 INFO  : Result from executing command 'getProjects': Ledblink_2
+15:04:43 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+15:08:36 INFO  : Result from executing command 'getProjects': Ledblink_2
+15:08:37 INFO  : Result from executing command 'getPlatforms': Ledblink_2|D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/Ledblink_2.xpfm;xilinx_vck190_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+15:15:17 INFO  : Result from executing command 'removePlatformRepo': 
+15:15:54 INFO  : Result from executing command 'getProjects': Ledblink_2
+15:15:54 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/APP/Vivado/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+15:15:55 INFO  : Checking for BSP changes to sync application flags for project 'ledblink'...
+15:23:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:24:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:25:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:26:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:13:11 INFO  : Build configuration of 'ledblink' is updated to 'Release'
+16:13:12 INFO  : Build configuration of 'ledblink' is updated to 'Debug'
+16:15:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:15:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+16:15:56 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:19:44 DEBUG : Logs will be stored at 'D:/APP/Vivado/Project/workspace_vitis/IDE.log'.
+12:19:44 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\APP\Vivado\Project\workspace_vitis\temp_xsdb_launch_script.tcl
+12:19:49 INFO  : Registering command handlers for Vitis TCF services
+12:19:50 INFO  : Platform repository initialization has completed.
+12:19:51 INFO  : XSCT server has started successfully.
+12:19:57 INFO  : Successfully done setting XSCT server connection channel  
+12:19:57 INFO  : plnx-install-location is set to ''
+12:19:57 INFO  : Successfully done query RDI_DATADIR 
+12:19:57 INFO  : Successfully done setting workspace for the tool. 
