@@ -1,0 +1,130 @@
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xscugic.h"
+#include "xil_exception.h"
+#include "xil_printf.h"
+
+#define BTN_DEVICE_ID   XPAR_AXI_GPIO_0_DEVICE_ID
+#define LED_DEVICE_ID   XPAR_AXI_GPIO_1_DEVICE_ID
+#define INTC_DEVICE_ID  XPAR_SCUGIC_SINGLE_DEVICE_ID
+#define BTN_INTR_ID     XPAR_FABRIC_GPIO_0_VEC_ID
+
+#define BTN_CHANNEL     1
+#define LED_CHANNEL     1
+
+XGpio BtnGpio;
+XGpio LedGpio;
+XScuGic Intc;
+
+volatile int count = 0;
+
+void ButtonHandler(void *CallbackRef)
+{
+    int btn_value;
+
+    // Kiểm tra interrupt từ GPIO
+    if (XGpio_InterruptGetStatus(&BtnGpio) & XGPIO_IR_CH1_MASK)
+    {
+        btn_value = XGpio_DiscreteRead(&BtnGpio, BTN_CHANNEL);
+
+        if (btn_value & 0x01) count += 1;
+        if (btn_value & 0x02) count += 2;
+        if (btn_value & 0x04) count += 4;
+        if (btn_value & 0x08) count += 8;
+
+        count = count & 0x0F;   // vì board bạn có 4 LED
+
+        XGpio_DiscreteWrite(&LedGpio, LED_CHANNEL, count);
+
+        xil_printf("Button = %d, Count = %d\r\n", btn_value, count);
+
+        // Xóa cờ interrupt
+        XGpio_InterruptClear(&BtnGpio, XGPIO_IR_CH1_MASK);
+    }
+}
+
+int SetupInterruptSystem()
+{
+    XScuGic_Config *IntcConfig;
+    int status;
+
+    IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+    if (IntcConfig == NULL)
+        return XST_FAILURE;
+
+    status = XScuGic_CfgInitialize(&Intc, IntcConfig, IntcConfig->CpuBaseAddress);
+    if (status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    Xil_ExceptionInit();
+
+    Xil_ExceptionRegisterHandler(
+        XIL_EXCEPTION_ID_INT,
+        (Xil_ExceptionHandler)XScuGic_InterruptHandler,
+        &Intc
+    );
+
+    status = XScuGic_Connect(
+        &Intc,
+        BTN_INTR_ID,
+        (Xil_ExceptionHandler)ButtonHandler,
+        &BtnGpio
+    );
+
+    if (status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    XScuGic_Enable(&Intc, BTN_INTR_ID);
+
+    XGpio_InterruptEnable(&BtnGpio, XGPIO_IR_CH1_MASK);
+    XGpio_InterruptGlobalEnable(&BtnGpio);
+
+    Xil_ExceptionEnable();
+
+    return XST_SUCCESS;
+}
+
+int main()
+{
+    int status;
+
+    xil_printf("Start interrupt counter program\r\n");
+
+    status = XGpio_Initialize(&BtnGpio, BTN_DEVICE_ID);
+    if (status != XST_SUCCESS)
+    {
+        xil_printf("Button GPIO init failed\r\n");
+        return XST_FAILURE;
+    }
+
+    status = XGpio_Initialize(&LedGpio, LED_DEVICE_ID);
+    if (status != XST_SUCCESS)
+    {
+        xil_printf("LED GPIO init failed\r\n");
+        return XST_FAILURE;
+    }
+
+    // Button là input
+    XGpio_SetDataDirection(&BtnGpio, BTN_CHANNEL, 0xFFFFFFFF);
+
+    // LED là output
+    XGpio_SetDataDirection(&LedGpio, LED_CHANNEL, 0x00000000);
+
+    XGpio_DiscreteWrite(&LedGpio, LED_CHANNEL, 0x00);
+
+    status = SetupInterruptSystem();
+    if (status != XST_SUCCESS)
+    {
+        xil_printf("Interrupt setup failed\r\n");
+        return XST_FAILURE;
+    }
+
+    xil_printf("System ready. Press buttons.\r\n");
+
+    while (1)
+    {
+        // CPU chờ interrupt
+    }
+
+    return 0;
+}

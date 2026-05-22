@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="interrupt_counter_system-bitFile" value="${project_loc:interrupt_counter}/_ide/bitstream/zynq_interrupt_system_wrapper.bit"/>
+	<item key="interrupt_counter_system-bmmFile" value=""/>
+	<item key="interrupt_counter_system-target" value="Local"/>
+	<item key="interrupt_counter_system-device" value="Auto Detect"/>
+	<item key="interrupt_counter_system-partial_bit" value="false"/>
+	<item key="interrupt_counter_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="interrupt_counter_system"/>
+</section>
