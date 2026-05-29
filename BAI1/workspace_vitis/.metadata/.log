@@ -1,0 +1,4317 @@
+!SESSION 2026-05-18 15:02:05.397 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\APP\Vivado\Project\workspace_vitis
+
+!ENTRY org.eclipse.ui 4 4 2026-05-18 15:02:12.931
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:02:17.795
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:02:17.796
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:02:17.822
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:02:17.823
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:02:17.825
+!MESSAGE XSCT Command: [setws D:/APP/Vivado/Project/workspace_vitis], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:02:18.052
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:02:18.052
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:02:18.054
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:02:18.055
+!MESSAGE XSCT command with result: [setws D:/APP/Vivado/Project/workspace_vitis], Result: [null, ]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:02:18.073
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, D:/APP/Vivado/Vitis/2022.2/data]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-18 15:04:02.387
+!MESSAGE Opening file dialog using preferences. Current path: D:\APP\Vivado\Vitis\2022.2\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:17.119
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper4944642659213640530/first_zynq_system_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:18.859
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper4944642659213640530/first_zynq_system_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:18.893
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper4944642659213640530/first_zynq_system_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:18.904
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper4944642659213640530/first_zynq_system_wrapper.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_50M": {"hier_name": "rst_ps7_0_50M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_i2c_0": {"hier_name": "ps7_i2c_0",
+"type": "ps7_i2c",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_can_0": {"hier_name": "ps7_can_0",
+"type": "ps7_can",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:18.993
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper4944642659213640530/first_zynq_system_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:19.004
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper4944642659213640530/first_zynq_system_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+"ps7_cortexa9_1": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:19.010
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper4944642659213640530/first_zynq_system_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:19.012
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper4944642659213640530/first_zynq_system_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Mon May 18 14:43:30 2026",
+"vivado_version": "2022.2",
+"part": "xc7z020clg484-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:26.135
+!MESSAGE XSCT Command: [platform create -name {Ledblink_2} -hw {D:\APP\Vivado\Project\ledblink_2\first_zynq_system_wrapper.xsa} -proc {ps7_cortexa9_0} -os {standalone} -out {D:/APP/Vivado/Project/workspace_vitis};platform write], Thread: ModalContext
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-05-18 15:04:26.395
+!MESSAGE Indexed 'Ledblink_2' (0 sources, 0 headers) in 0,003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:45.446
+!MESSAGE XSCT command with result: [platform create -name {Ledblink_2} -hw {D:\APP\Vivado\Project\ledblink_2\first_zynq_system_wrapper.xsa} -proc {ps7_cortexa9_0} -os {standalone} -out {D:/APP/Vivado/Project/workspace_vitis};platform write], Result: [null, Successfully saved  the platform at "D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/platform.spr"]. Thread: ModalContext
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2026-05-18 15:04:45.486
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.part.IntroPart.dispose(IntroPart.java:99)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.dispose(ViewIntroAdapterPart.java:153)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:260)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:417)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1002)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:967)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:200)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:176)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:89)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:491)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:184)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:954)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:873)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:868)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:852)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:115)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:945)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:873)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:868)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:852)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:187)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1406)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1537)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1496)
+	at org.eclipse.ui.internal.WorkbenchPage.hideView(WorkbenchPage.java:2609)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.closeIntro(WorkbenchIntroManager.java:98)
+	at com.xilinx.sdx.ui.utils.SWTUtils.closeWelcomeView(SWTUtils.java:529)
+	at com.xilinx.sdx.scw.project.ScwProjectCreationHandler$1.run(ScwProjectCreationHandler.java:71)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
+	at com.xilinx.sdx.npw.NewPlatformProjectWizard.createPlatformProject(NewPlatformProjectWizard.java:125)
+	at com.xilinx.sdx.npw.NewPlatformProjectWizard.createPlatformProjectFromDSA(NewPlatformProjectWizard.java:110)
+	at com.xilinx.sdx.npw.NewPlatformProjectWizard.performFinish(NewPlatformProjectWizard.java:80)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.xilinx.sdx.npw.OpenSCWWizardAction.run(OpenSCWWizardAction.java:23)
+	at com.xilinx.sdx.npw.OpenSCWWizardAction.clicked(OpenSCWWizardAction.java:40)
+	at com.xilinx.ide.product.intro.IDEIntroPart.createPlatformProject(IDEIntroPart.java:479)
+	at com.xilinx.ide.product.intro.IDEIntroPart$4.run(IDEIntroPart.java:279)
+	at com.xilinx.ide.product.intro.IDEIntroPart$12.mouseUp(IDEIntroPart.java:402)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:45.878
+!MESSAGE XSCT Command: [platform read {D:\APP\Vivado\Project\workspace_vitis\Ledblink_2\platform.spr}], Thread: Worker-6: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:45.897
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: Worker-7: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:51.231
+!MESSAGE XSCT command with result: [platform read {D:\APP\Vivado\Project\workspace_vitis\Ledblink_2\platform.spr}], Result: [null, ]. Thread: Worker-6: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:51.232
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, ]. Thread: Worker-7: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:51.233
+!MESSAGE XSCT Command: [platform active {Ledblink_2}], Thread: Worker-6: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:51.233
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper4944642659213640530/first_zynq_system_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:51.234
+!MESSAGE XSCT command with result: [platform active {Ledblink_2}], Result: [null, ]. Thread: Worker-6: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:04:51.261
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper4944642659213640530/first_zynq_system_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:00.419
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:00.451
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program for baremetal environment.",
+"supp_proc": "microblaze psu_cortexa53 ps7_cortexa9 psv_cortexa72 psu_cortexr5 psv_cortexr5",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"empty_application": {"userdefname": "Empty Application(C)",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72 psxl_cortexr52 psx_cortexr52 psx_cortexa78 psxl_cortexa78",
+"supp_os": "freertos10_xilinx",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"imgsel": {"userdefname": "Image Selector",
+"description": "ImgSel for Zynq Ultrascale+ MPSoC. The Image Selector  selects the image based on configuration parameters",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/imgsel",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"img_rcvry": {"userdefname": "Image Recovery",
+"description": "Image Recovery tool which writes  user selected images on the board.",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/img_rcvry",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5 psv_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psv_cortexa72 psv_cortexr5 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze psv_cortexa72 psv_cortexr5 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"versal_plm": {"userdefname": "versal PLM",
+"description": "Platform Loader and Manager for versal.",
+"supp_proc": "psu_pmc psv_pmc psxl_pmc psx_pmc",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/versal_plm",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"versal_psmfw": {"userdefname": "versal PSM Firmware",
+"description": "Processing System Management Unit Firmware for versal.",
+"supp_proc": "psu_psm psv_psm psxl_psm psx_psm",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/versal_psmfw",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:00.463
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:04.318
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:04.319
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:04.337
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_50M": {"hier_name": "rst_ps7_0_50M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_i2c_0": {"hier_name": "ps7_i2c_0",
+"type": "ps7_i2c",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_can_0": {"hier_name": "ps7_can_0",
+"type": "ps7_can",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:04.426
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:07.824
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:07.825
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:07.845
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_50M": {"hier_name": "rst_ps7_0_50M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_i2c_0": {"hier_name": "ps7_i2c_0",
+"type": "ps7_i2c",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_can_0": {"hier_name": "ps7_can_0",
+"type": "ps7_can",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:07.847
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:07.860
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:07.862
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:07.869
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app hello_world -sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:29.497
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app empty_application -sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:29.502
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa -os standalone -processor ps7_cortexa9_0 -app empty_application -sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:46.944
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:46.951
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:46.952
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:46.956
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.505
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.527
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+"ps7_cortexa9_1": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.528
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.531
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.532
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.534
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.535
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.560
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0], Result: [null, axi_gpio_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_can_0 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_i2c_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_ttc_0 ps7_uart_1 ps7_usb_0 ps7_xadc_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.562
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.591
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.9",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_can_0": {"name": "canps",
+"ver": "3.6",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.8",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.2",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.7",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.8",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.8",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.17",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.10",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_i2c_0": {"name": "iicps",
+"ver": "3.16",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.10",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "5.0",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.4",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.4",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "4.0",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "3.1",
+},
+"ps7_ttc_0": {"name": "ttcps",
+"ver": "3.16",
+},
+"ps7_uart_1": {"name": "uartps",
+"ver": "3.11",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.7",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.6",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.11",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.592
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.927
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, {"axi_gpio_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"gpio_v4_9": {"name": "gpio",
+"version": "4.9",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_9",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"processing_system7_0": {"version": "5.5",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"rst_ps7_0_50M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_clockc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_uart_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"uartps_v3_11": {"name": "uartps",
+"version": "3.11",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartps_v3_11",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_pl310_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_pmu_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_qspi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"qspips_v3_10": {"name": "qspips",
+"version": "3.10",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/qspips_v3_10",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_qspi_linear_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_axi_interconnect_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_cortexa9_0": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"cpu_cortexa9_v2_11": {"name": "cpu_cortexa9",
+"version": "2.11",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_11",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_cortexa9_1": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"cpu_cortexa9_v2_11": {"name": "cpu_cortexa9",
+"version": "2.11",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_11",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"ddrps_v1_2": {"name": "ddrps",
+"version": "1.2",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/ddrps_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ethernet_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"emacps_v3_17": {"name": "emacps",
+"version": "3.17",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/emacps_v3_17",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_usb_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"usbps_v2_7": {"name": "usbps",
+"version": "2.7",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/usbps_v2_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_sd_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"sdps_v4_0": {"name": "sdps",
+"version": "4.0",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/sdps_v4_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_i2c_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"iicps_v3_16": {"name": "iicps",
+"version": "3.16",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/iicps_v3_16",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_can_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"canps_v3_6": {"name": "canps",
+"version": "3.6",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/canps_v3_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ttc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"ttcps_v3_16": {"name": "ttcps",
+"version": "3.16",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/ttcps_v3_16",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpio_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"gpiops_v3_10": {"name": "gpiops",
+"version": "3.10",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpiops_v3_10",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddrc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_dev_cfg_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"devcfg_v3_7": {"name": "devcfg",
+"version": "3.7",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/devcfg_v3_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_xadc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"xadcps_v2_6": {"name": "xadcps",
+"version": "2.6",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/xadcps_v2_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ocmc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_coresight_comp_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"coresightps_dcc_v1_8": {"name": "coresightps_dcc",
+"version": "1.8",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/coresightps_dcc_v1_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpv_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_scuc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_globaltimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_intc_dist_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_l2cachec_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_dma_s": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"dmaps_v2_8": {"name": "dmaps",
+"version": "2.8",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_iop_bus_config_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_ram_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_ram_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_scugic_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"scugic_v5_0": {"name": "scugic",
+"version": "5.0",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scugic_v5_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scutimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"scutimer_v2_4": {"name": "scutimer",
+"version": "2.4",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scutimer_v2_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scuwdt_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"scuwdt_v2_4": {"name": "scuwdt",
+"version": "2.4",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scuwdt_v2_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_slcr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_dma_ns": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"dmaps_v2_8": {"name": "dmaps",
+"version": "2.8",
+"repo": "D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_afi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_afi_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_afi_2": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_afi_3": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"ps7_m_axi_gp0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/APP/Vivado/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.931
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.935
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.937
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.946
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:47.987
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:48.016
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:48.018
+!MESSAGE XSCT Command: [::hsi::utils::opensw D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:48.021
+!MESSAGE XSCT command with result: [::hsi::utils::opensw D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:48.021
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa -sw D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir D:/APP/Vivado/Project/workspace_vitis/ledblink/src], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:48.122
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa -sw D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir D:/APP/Vivado/Project/workspace_vitis/ledblink/src], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:48.218
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\APP\Vivado\Project\workspace_vitis\ledblink\_ide\bitstream}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:48.307
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\APP\Vivado\Project\workspace_vitis\ledblink\_ide\bitstream}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:48.308
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:48.310
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Mon May 18 14:43:30 2026",
+"vivado_version": "2022.2",
+"part": "xc7z020clg484-1",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:48.312
+!MESSAGE XSCT Command: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {D:/APP/Vivado/Project/workspace_vitis/ledblink/_ide/psinit} -quiet], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:55.687
+!MESSAGE XSCT command with result: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {D:/APP/Vivado/Project/workspace_vitis/ledblink/_ide/psinit} -quiet], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:55.903
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:55.916
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/APP/Vivado/Project/workspace_vitis/ledblink/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-18 15:11:55.980
+!MESSAGE Generating MD5 hash for file: D:\APP\Vivado\Project\workspace_vitis\Ledblink_2\export\Ledblink_2\sw\Ledblink_2\standalone_domain\system.mss ...
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-05-18 15:11:56.388
+!MESSAGE Indexed 'ledblink' (0 sources, 0 headers) in 0,003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-05-18 15:11:56.402
+!MESSAGE Indexed 'ledblink_system' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:56.478
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:11:56.504
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/DELL/AppData/Local/Temp/hwspec_first_zynq_system_wrapper3019851422297312776/first_zynq_system_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:15:55.822
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss ], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:15:55.827
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:15:55.828
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:15:55.831
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-18 15:15:55.832
+!MESSAGE Generating MD5 hash for file: D:\APP\Vivado\Project\workspace_vitis\Ledblink_2\export\Ledblink_2\sw\Ledblink_2\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:15:55.836
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:15:55.837
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/sw/Ledblink_2/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY org.eclipse.ui.navigator 4 2 2026-05-18 15:21:19.451
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+java.lang.IllegalArgumentException: newPosition > limit: (19006465 > 4203)
+	at java.base/java.nio.Buffer.createPositionException(Buffer.java:318)
+	at java.base/java.nio.Buffer.position(Buffer.java:293)
+	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1094)
+	at java.base/java.nio.MappedByteBuffer.position(MappedByteBuffer.java:226)
+	at java.base/java.nio.MappedByteBuffer.position(MappedByteBuffer.java:67)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugAbbreviation(Dwarf.java:544)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugInfo(Dwarf.java:480)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parse(Dwarf.java:454)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFilesFromDebugInfoSection(DwarfReader.java:564)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFiles(DwarfReader.java:542)
+	at org.eclipse.cdt.internal.core.model.Binary.addSourceFiles(Binary.java:321)
+	at org.eclipse.cdt.internal.core.model.Binary.computeChildren(Binary.java:292)
+	at org.eclipse.cdt.internal.core.model.Binary.buildStructure(Binary.java:278)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getChildren(BaseCElementContentProvider.java:243)
+	at org.eclipse.cdt.internal.ui.cview.CViewContentProvider.getChildren(CViewContentProvider.java:90)
+	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getChildren(CNavigatorContentProvider.java:246)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:98)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:241)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:132)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1422)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:350)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:852)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:621)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:821)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:604)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:774)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1549)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:889)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$3.treeExpanded(AbstractTreeViewer.java:1561)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1046)
+	at org.eclipse.swt.widgets.Tree.wmNotifyChild(Tree.java:7495)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5766)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1950)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5334)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4749)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Tree.callWindowProc(Tree.java:1546)
+	at org.eclipse.swt.widgets.Tree.WM_LBUTTONDOWN(Tree.java:6397)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4754)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:5929)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4749)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3522)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2026-05-18 15:21:19.452
+!MESSAGE An exception occurred invoking extension: com.xilinx.ide.navigator.cppcontent for object ledblink.elf
+!STACK 0
+java.lang.IllegalArgumentException: newPosition > limit: (19006465 > 4203)
+	at java.base/java.nio.Buffer.createPositionException(Buffer.java:318)
+	at java.base/java.nio.Buffer.position(Buffer.java:293)
+	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1094)
+	at java.base/java.nio.MappedByteBuffer.position(MappedByteBuffer.java:226)
+	at java.base/java.nio.MappedByteBuffer.position(MappedByteBuffer.java:67)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugAbbreviation(Dwarf.java:544)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugInfo(Dwarf.java:480)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parse(Dwarf.java:454)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFilesFromDebugInfoSection(DwarfReader.java:564)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFiles(DwarfReader.java:542)
+	at org.eclipse.cdt.internal.core.model.Binary.addSourceFiles(Binary.java:321)
+	at org.eclipse.cdt.internal.core.model.Binary.computeChildren(Binary.java:292)
+	at org.eclipse.cdt.internal.core.model.Binary.buildStructure(Binary.java:278)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getChildren(BaseCElementContentProvider.java:243)
+	at org.eclipse.cdt.internal.ui.cview.CViewContentProvider.getChildren(CViewContentProvider.java:90)
+	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getChildren(CNavigatorContentProvider.java:246)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:98)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:241)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:132)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1422)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:350)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:852)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:621)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:821)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:604)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:774)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1549)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:889)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$3.treeExpanded(AbstractTreeViewer.java:1561)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1046)
+	at org.eclipse.swt.widgets.Tree.wmNotifyChild(Tree.java:7495)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5766)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1950)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5334)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4749)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Tree.callWindowProc(Tree.java:1546)
+	at org.eclipse.swt.widgets.Tree.WM_LBUTTONDOWN(Tree.java:6397)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4754)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:5929)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4749)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3522)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.ui.navigator 4 2 2026-05-18 15:21:27.464
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+java.lang.IllegalArgumentException: newPosition > limit: (1025 > 290)
+	at java.base/java.nio.Buffer.createPositionException(Buffer.java:318)
+	at java.base/java.nio.Buffer.position(Buffer.java:293)
+	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1094)
+	at java.base/java.nio.MappedByteBuffer.position(MappedByteBuffer.java:226)
+	at java.base/java.nio.MappedByteBuffer.position(MappedByteBuffer.java:67)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugAbbreviation(Dwarf.java:544)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugInfo(Dwarf.java:480)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parse(Dwarf.java:454)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFilesFromDebugInfoSection(DwarfReader.java:564)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFiles(DwarfReader.java:542)
+	at org.eclipse.cdt.internal.core.model.Binary.addSourceFiles(Binary.java:321)
+	at org.eclipse.cdt.internal.core.model.Binary.computeChildren(Binary.java:292)
+	at org.eclipse.cdt.internal.core.model.Binary.buildStructure(Binary.java:278)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getChildren(BaseCElementContentProvider.java:243)
+	at org.eclipse.cdt.internal.ui.cview.CViewContentProvider.getChildren(CViewContentProvider.java:90)
+	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getChildren(CNavigatorContentProvider.java:246)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:98)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:241)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:132)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1422)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:350)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:852)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:621)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:821)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:604)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:774)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1549)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:889)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$3.treeExpanded(AbstractTreeViewer.java:1561)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1046)
+	at org.eclipse.swt.widgets.Tree.wmNotifyChild(Tree.java:7495)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5766)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1950)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5334)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4749)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Tree.callWindowProc(Tree.java:1546)
+	at org.eclipse.swt.widgets.Tree.WM_LBUTTONDOWN(Tree.java:6397)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4754)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:5929)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4749)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3522)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2026-05-18 15:21:27.608
+!MESSAGE An exception occurred invoking extension: com.xilinx.ide.navigator.cppcontent for object main.o
+!STACK 0
+java.lang.IllegalArgumentException: newPosition > limit: (1025 > 290)
+	at java.base/java.nio.Buffer.createPositionException(Buffer.java:318)
+	at java.base/java.nio.Buffer.position(Buffer.java:293)
+	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1094)
+	at java.base/java.nio.MappedByteBuffer.position(MappedByteBuffer.java:226)
+	at java.base/java.nio.MappedByteBuffer.position(MappedByteBuffer.java:67)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugAbbreviation(Dwarf.java:544)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parseDebugInfo(Dwarf.java:480)
+	at org.eclipse.cdt.utils.debug.dwarf.Dwarf.parse(Dwarf.java:454)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFilesFromDebugInfoSection(DwarfReader.java:564)
+	at org.eclipse.cdt.utils.debug.dwarf.DwarfReader.getSourceFiles(DwarfReader.java:542)
+	at org.eclipse.cdt.internal.core.model.Binary.addSourceFiles(Binary.java:321)
+	at org.eclipse.cdt.internal.core.model.Binary.computeChildren(Binary.java:292)
+	at org.eclipse.cdt.internal.core.model.Binary.buildStructure(Binary.java:278)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.ui.BaseCElementContentProvider.getChildren(BaseCElementContentProvider.java:243)
+	at org.eclipse.cdt.internal.ui.cview.CViewContentProvider.getChildren(CViewContentProvider.java:90)
+	at org.eclipse.cdt.internal.ui.navigator.CNavigatorContentProvider.getChildren(CNavigatorContentProvider.java:246)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:98)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:241)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:96)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:160)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:146)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:132)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getRawChildren(AbstractTreeViewer.java:1422)
+	at org.eclipse.jface.viewers.TreeViewer.getRawChildren(TreeViewer.java:350)
+	at org.eclipse.jface.viewers.StructuredViewer.getFilteredChildren(StructuredViewer.java:852)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSortedChildren(AbstractTreeViewer.java:621)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:821)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:604)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:774)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1549)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:889)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$3.treeExpanded(AbstractTreeViewer.java:1561)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1046)
+	at org.eclipse.swt.widgets.Tree.wmNotifyChild(Tree.java:7495)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5766)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1950)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5334)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4749)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Tree.callWindowProc(Tree.java:1546)
+	at org.eclipse.swt.widgets.Tree.WM_LBUTTONDOWN(Tree.java:6397)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4754)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:5929)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4749)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3522)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:23:41.370
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:23:41.373
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Result: [null, {"ps7_cortexa9_0": "",
+"ps7_cortexa9_1": "",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:23:48.552
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-15: Fetching Devices...
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-18 15:23:51.030
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-18 15:23:51.030
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-18 15:23:51.032
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:23:51.070
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-15: Fetching Devices...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:23:51.072
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Fetching Devices...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:23:54.237
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-15: Fetching Devices...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:23:57.246
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Fetching Devices...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:00.255
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-15: Fetching Devices...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:00.260
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Fetching Devices...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:03.273
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-15: Fetching Devices...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:06.281
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Fetching Devices...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:09.298
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-15: Fetching Devices...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:17.965
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:17.970
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:17.971
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:17.972
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:17.973
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:20.980
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:23.995
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:27.002
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:27.004
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:30.007
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:33.011
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:24:36.021
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:02.806
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:02.811
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Result: [null, {"ps7_cortexa9_0": "",
+"ps7_cortexa9_1": "",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:08.546
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:08.551
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:08.552
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:08.577
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:08.579
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:11.588
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:14.595
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:17.604
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:17.605
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:20.614
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:23.621
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:26.637
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:47.157
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:25:47.159
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Result: [null, {"ps7_cortexa9_0": "",
+"ps7_cortexa9_1": "",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:05.041
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:05.044
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:05.045
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:05.055
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:05.057
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:08.065
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:11.078
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:14.089
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:14.091
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:17.103
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:20.112
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:23.129
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:28.996
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 15:26:28.999
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ], Result: [null, {"ps7_cortexa9_0": "",
+"ps7_cortexa9_1": "",
+}]. Thread: main
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-18 16:14:08.647
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-18 16:14:08.647
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-18 16:14:08.647
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.821
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.836
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "666.666666",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "50",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "533.333333",
+}]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.837
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.859
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616476,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616488,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616480,
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_can_0": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_i2c_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_ttc_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.861
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.875
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_can_0": {"name": "ps7_can_0",
+"base": "0xE0008000",
+"high": "0xE0008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_i2c_0": {"name": "ps7_i2c_0",
+"base": "0xE0004000",
+"high": "0xE0004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ttc_0": {"name": "ps7_ttc_0",
+"base": "0xF8001000",
+"high": "0xF8001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.881
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.883
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.883
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.886
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.886
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.887
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.887
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.910
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.911
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.913
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.913
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.916
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.917
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.921
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.921
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.941
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "4",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "4",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616476,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616488,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616480,
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_can_0": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_i2c_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_ttc_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.942
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.962
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_can_0": {"name": "ps7_can_0",
+"base": "0xE0008000",
+"high": "0xE0008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_i2c_0": {"name": "ps7_i2c_0",
+"base": "0xE0004000",
+"high": "0xE0004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ttc_0": {"name": "ps7_ttc_0",
+"base": "0xF8001000",
+"high": "0xF8001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.962
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.965
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.988
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.992
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.993
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.995
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:37.995
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:38.000
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:38.001
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:38.003
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:38.035
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:38.038
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:38.043
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa bit], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:38.046
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa bit], Result: [null, first_zynq_system_wrapper.bit]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:38.048
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:38.051
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:38.052
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:41.059
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:44.064
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:47.074
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:47.075
+!MESSAGE XSCT Command: [version -server], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:47.078
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:47.078
+!MESSAGE XSCT Command: [version], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:47.079
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:47.094
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:50.101
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:53.106
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:15:56.114
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-25: Launching SystemDebugger_ledblink_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:16:16.653
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:16:16.655
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:16:16.656
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:16:16.685
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_50M": {"hier_name": "rst_ps7_0_50M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_i2c_0": {"hier_name": "ps7_i2c_0",
+"type": "ps7_i2c",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_can_0": {"hier_name": "ps7_can_0",
+"type": "ps7_can",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:16:16.687
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-18 16:16:16.690
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/APP/Vivado/Project/workspace_vitis/Ledblink_2/export/Ledblink_2/hw/first_zynq_system_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Mon May 18 14:43:30 2026",
+"vivado_version": "2022.2",
+"part": "xc7z020clg484-1",
+}]. Thread: main
+!SESSION 2026-05-19 12:18:44.210 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2026-05-19 12:19:42.285
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-19 12:19:51.115
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-19 12:19:51.115
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-32
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-19 12:19:51.131
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-19 12:19:57.048
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-19 12:19:57.048
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-32
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-19 12:19:57.048
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-19 12:19:57.048
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-19 12:19:57.048
+!MESSAGE XSCT Command: [setws D:/APP/Vivado/Project/workspace_vitis], Thread: Thread-32
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-19 12:19:57.064
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, D:/APP/Vivado/Vitis/2022.2/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-19 12:19:57.064
+!MESSAGE XSCT command with result: [setws D:/APP/Vivado/Project/workspace_vitis], Result: [null, ]. Thread: Thread-32
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-19 12:20:11.292
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-19 12:20:11.292
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-19 12:20:11.292
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
