@@ -1,0 +1,4 @@
+remark: matrix_mult.cpp:15:19: Loop 'Product' is marked as complete unroll implied by the pipeline pragma
+remark: matrix_mult.cpp:8:0: Unrolling loop 'Product' (matrix_mult.cpp:15:19) in function 'matrix_mult' completely with a factor of 5
+remark: matrix_mult.cpp:8:0: Applying array_reshape to 'a': Complete reshaping on dimension 2.
+remark: matrix_mult.cpp:8:0: Applying array_reshape to 'b': Complete reshaping on dimension 1.

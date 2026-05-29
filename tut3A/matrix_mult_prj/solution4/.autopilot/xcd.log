@@ -1,0 +1,88 @@
+05/25/26 14:49:22: Running xcd server. This server was built by gradle.
+05/25/26 14:49:22: Server was asked to start on port: '59516'
+05/25/26 14:49:22: Server is using token UUID: 'e2f8dd58-57b2-4671-9a7d-da905ef09e1c'
+05/25/26 14:49:22: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+05/25/26 14:49:22: Attempting to start server on port '59516'
+05/25/26 14:49:22: Running Dispatch Server
+05/25/26 14:49:22: Version 2.2.0
+05/25/26 14:49:31: Dispatch Server: Accepted socket connection from client
+05/25/26 14:49:31: Starting Socket connection
+05/25/26 14:49:31: EXCHANGE_TOKEN received, server token: e2f8dd58-57b2-4671-9a7d-da905ef09e1c, passed token: e2f8dd58-57b2-4671-9a7d-da905ef09e1c
+05/25/26 14:49:31: SESSION_MGR: creating session with session uuid: '3072e567-ed56-4683-ad5e-dae5c93bc289' and name 'vitis_hls'
+05/25/26 14:49:31: KERNEL_SVC: creating session with uuid: '3072e567-ed56-4683-ad5e-dae5c93bc289' and name 'vitis_hls'
+05/25/26 14:49:31: GUIDANCE_SMGR: creating guidance session with uuid: '3072e567-ed56-4683-ad5e-dae5c93bc289' and name 'vitis_hls'
+05/25/26 14:49:37: STOP_SERVER received, server token: e2f8dd58-57b2-4671-9a7d-da905ef09e1c, passed token: e2f8dd58-57b2-4671-9a7d-da905ef09e1c
+05/25/26 14:49:37: Socket received request to stop server.
+05/25/26 14:49:37: Dispatch Server: do_await_stop
+05/25/26 14:49:37: SERVER: destructor for server bound to port 59516
+05/25/26 14:49:37: Server exiting with status 0.
+05/25/26 14:49:37: Closing log file.
+05/25/26 15:46:25: Running xcd server. This server was built by gradle.
+05/25/26 15:46:25: Server was asked to start on port: '53813'
+05/25/26 15:46:25: Server is using token UUID: 'beb68bed-bae5-44d5-99bd-075ec8ea393b'
+05/25/26 15:46:25: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+05/25/26 15:46:25: Attempting to start server on port '53813'
+05/25/26 15:46:25: Running Dispatch Server
+05/25/26 15:46:25: Version 2.2.0
+05/25/26 15:46:34: Dispatch Server: Accepted socket connection from client
+05/25/26 15:46:34: Starting Socket connection
+05/25/26 15:46:34: EXCHANGE_TOKEN received, server token: beb68bed-bae5-44d5-99bd-075ec8ea393b, passed token: beb68bed-bae5-44d5-99bd-075ec8ea393b
+05/25/26 15:46:34: SESSION_MGR: creating session with session uuid: 'c78ef8ab-2ad7-4dd5-9f26-a2a44a3af98a' and name 'vitis_hls'
+05/25/26 15:46:34: KERNEL_SVC: creating session with uuid: 'c78ef8ab-2ad7-4dd5-9f26-a2a44a3af98a' and name 'vitis_hls'
+05/25/26 15:46:34: GUIDANCE_SMGR: creating guidance session with uuid: 'c78ef8ab-2ad7-4dd5-9f26-a2a44a3af98a' and name 'vitis_hls'
+05/25/26 15:46:59: Dispatch Server: Accepted socket connection from client
+05/25/26 15:46:59: Starting Socket connection
+05/25/26 15:47:29: Dispatch Server: Accepted socket connection from client
+05/25/26 15:47:29: Starting Socket connection
+05/25/26 15:48:03: STOP_SERVER received, server token: beb68bed-bae5-44d5-99bd-075ec8ea393b, passed token: beb68bed-bae5-44d5-99bd-075ec8ea393b
+05/25/26 15:48:03: Socket received request to stop server.
+05/25/26 15:48:03: Dispatch Server: do_await_stop
+05/25/26 15:48:03: SERVER: destructor for server bound to port 53813
+05/25/26 15:48:03: Server exiting with status 0.
+05/25/26 15:48:03: Closing log file.
+05/29/26 07:38:16: Running xcd server. This server was built by gradle.
+05/29/26 07:38:16: Server was asked to start on port: '60127'
+05/29/26 07:38:16: Server is using token UUID: '9c3efdbe-c7e0-4999-9d99-1d73ed2534dc'
+05/29/26 07:38:16: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+05/29/26 07:38:16: Attempting to start server on port '60127'
+05/29/26 07:38:16: Running Dispatch Server
+05/29/26 07:38:16: Version 2.2.0
+05/29/26 07:38:25: Dispatch Server: Accepted socket connection from client
+05/29/26 07:38:25: Starting Socket connection
+05/29/26 07:38:25: EXCHANGE_TOKEN received, server token: 9c3efdbe-c7e0-4999-9d99-1d73ed2534dc, passed token: 9c3efdbe-c7e0-4999-9d99-1d73ed2534dc
+05/29/26 07:38:25: SESSION_MGR: creating session with session uuid: '81c6616e-2b66-4c77-85ef-c39dc00fd31c' and name 'vitis_hls'
+05/29/26 07:38:25: KERNEL_SVC: creating session with uuid: '81c6616e-2b66-4c77-85ef-c39dc00fd31c' and name 'vitis_hls'
+05/29/26 07:38:25: GUIDANCE_SMGR: creating guidance session with uuid: '81c6616e-2b66-4c77-85ef-c39dc00fd31c' and name 'vitis_hls'
+05/29/26 07:39:08: Dispatch Server: Accepted socket connection from client
+05/29/26 07:39:08: Starting Socket connection
+05/29/26 07:39:41: Dispatch Server: Accepted socket connection from client
+05/29/26 07:39:41: Starting Socket connection
+05/29/26 07:40:26: STOP_SERVER received, server token: 9c3efdbe-c7e0-4999-9d99-1d73ed2534dc, passed token: 9c3efdbe-c7e0-4999-9d99-1d73ed2534dc
+05/29/26 07:40:26: Socket received request to stop server.
+05/29/26 07:40:26: Dispatch Server: do_await_stop
+05/29/26 07:40:26: SERVER: destructor for server bound to port 60127
+05/29/26 07:40:26: Server exiting with status 0.
+05/29/26 07:40:26: Closing log file.
+05/29/26 07:47:25: Running xcd server. This server was built by gradle.
+05/29/26 07:47:25: Server was asked to start on port: '54376'
+05/29/26 07:47:25: Server is using token UUID: '8db0a6d6-a352-43bd-9408-df0807403c81'
+05/29/26 07:47:25: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+05/29/26 07:47:25: Attempting to start server on port '54376'
+05/29/26 07:47:25: Running Dispatch Server
+05/29/26 07:47:25: Version 2.2.0
+05/29/26 07:47:34: Dispatch Server: Accepted socket connection from client
+05/29/26 07:47:34: Starting Socket connection
+05/29/26 07:47:34: EXCHANGE_TOKEN received, server token: 8db0a6d6-a352-43bd-9408-df0807403c81, passed token: 8db0a6d6-a352-43bd-9408-df0807403c81
+05/29/26 07:47:34: SESSION_MGR: creating session with session uuid: '0133c2c3-65f9-42ad-a871-a6d24d52446d' and name 'vitis_hls'
+05/29/26 07:47:34: KERNEL_SVC: creating session with uuid: '0133c2c3-65f9-42ad-a871-a6d24d52446d' and name 'vitis_hls'
+05/29/26 07:47:34: GUIDANCE_SMGR: creating guidance session with uuid: '0133c2c3-65f9-42ad-a871-a6d24d52446d' and name 'vitis_hls'
+05/29/26 07:47:59: Dispatch Server: Accepted socket connection from client
+05/29/26 07:47:59: Starting Socket connection
+05/29/26 07:48:30: Dispatch Server: Accepted socket connection from client
+05/29/26 07:48:30: Starting Socket connection
+05/29/26 07:49:15: STOP_SERVER received, server token: 8db0a6d6-a352-43bd-9408-df0807403c81, passed token: 8db0a6d6-a352-43bd-9408-df0807403c81
+05/29/26 07:49:15: Socket received request to stop server.
+05/29/26 07:49:15: Dispatch Server: do_await_stop
+05/29/26 07:49:15: SERVER: destructor for server bound to port 54376
+05/29/26 07:49:15: Server exiting with status 0.
+05/29/26 07:49:15: Closing log file.

@@ -1,0 +1,189 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Mon May 25 15:50:31 2026
+| Host         : DESKTOP-GV6BOLL running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 5 -file ./report/matrix_mult_utilization_hierarchical_synth.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Synthesized
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++--------------------------------------------------------------+----------------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+|                           Instance                           |                                Module                                | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++--------------------------------------------------------------+----------------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+| bd_0_wrapper                                                 |                                                                (top) |        633 |        633 |       0 |    0 | 1676 |      0 |      0 |        123 |
+|   bd_0_i                                                     |                                                                 bd_0 |        633 |        633 |       0 |    0 | 1676 |      0 |      0 |        123 |
+|     hls_inst                                                 |                                                      bd_0_hls_inst_0 |        633 |        633 |       0 |    0 | 1676 |      0 |      0 |        123 |
+|       (hls_inst)                                             |                                                      bd_0_hls_inst_0 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|       inst                                                   |                                          bd_0_hls_inst_0_matrix_mult |        633 |        633 |       0 |    0 | 1676 |      0 |      0 |        123 |
+|         (inst)                                               |                                          bd_0_hls_inst_0_matrix_mult |        621 |        621 |       0 |    0 | 1676 |      0 |      0 |         42 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U100                    |             bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_150 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U105                    |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_0 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_149 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U106                    |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_1 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_148 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U109                    |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_2 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_147 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U111                    |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_3 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_146 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U113                    |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_4 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_145 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U115                    |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_5 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_144 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U119                    |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_6 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_143 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U120                    |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_7 |          2 |          2 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_142 |          2 |          2 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U121                    |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_8 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_141 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U123                    |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_9 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_140 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U125                    |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_10 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_139 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U59                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_11 |          2 |          2 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_138 |          2 |          2 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U60                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_12 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_137 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U65                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_13 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_136 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U66                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_14 |          2 |          2 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_135 |          2 |          2 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U71                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_15 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_134 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U72                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_16 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_133 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U77                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_17 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_132 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U78                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_18 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_131 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U86                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_19 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_130 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U87                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_20 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_129 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U93                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_21 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_128 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U94                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_22 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U | bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_127 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16ns_16_4_1_U99                     |          bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_23 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1_U |     bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16ns_16_4_1_DSP48_1 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U101                     |              bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_126 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U102                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_24 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_125 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U103                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_25 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_124 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U104                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_26 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_123 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U107                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_27 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_122 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U108                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_28 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_121 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U110                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_29 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_120 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U112                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_30 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_119 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U114                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_31 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_118 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U116                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_32 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_117 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U117                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_33 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_116 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U118                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_34 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_115 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U122                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_35 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_114 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U124                     |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_36 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_113 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U51                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_37 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_112 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U52                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_38 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_111 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U53                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_39 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_110 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U54                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_40 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_109 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U55                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_41 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_108 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U56                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_42 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_107 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U57                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_43 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_106 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U58                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_44 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_105 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U61                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_45 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_104 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U62                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_46 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_103 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U63                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_47 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_102 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U64                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_48 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_101 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U67                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_49 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |  bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_100 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U68                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_50 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_99 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U69                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_51 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_98 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U70                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_52 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_97 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U73                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_53 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_96 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U74                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_54 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_95 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U75                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_55 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_94 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U76                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_56 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_93 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U79                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_57 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_92 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U80                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_58 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_91 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U81                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_59 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_90 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U82                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_60 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_89 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U83                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_61 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_88 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U84                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_62 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_87 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U85                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_63 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_86 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U88                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_64 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_85 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U89                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_65 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_84 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U90                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_66 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_83 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U91                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_67 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_82 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U92                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_68 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_81 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U95                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_69 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_80 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U96                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_70 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_79 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U97                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_71 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |   bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_78 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mac_muladd_8s_8s_16s_16_4_1_U98                      |           bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_72 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|           matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U  |      bd_0_hls_inst_0_matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mul_8s_8s_16_3_1_U37                                 |                         bd_0_hls_inst_0_matrix_mult_mul_8s_8s_16_3_1 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mul_8s_8s_16_3_1_U38                                 |                      bd_0_hls_inst_0_matrix_mult_mul_8s_8s_16_3_1_73 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mul_8s_8s_16_3_1_U39                                 |                      bd_0_hls_inst_0_matrix_mult_mul_8s_8s_16_3_1_74 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mul_8s_8s_16_3_1_U40                                 |                      bd_0_hls_inst_0_matrix_mult_mul_8s_8s_16_3_1_75 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mul_8s_8s_16_3_1_U6                                  |                      bd_0_hls_inst_0_matrix_mult_mul_8s_8s_16_3_1_76 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          1 |
+|         mul_8s_8s_16_3_1_U8                                  |                      bd_0_hls_inst_0_matrix_mult_mul_8s_8s_16_3_1_77 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          1 |
++--------------------------------------------------------------+----------------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+
+

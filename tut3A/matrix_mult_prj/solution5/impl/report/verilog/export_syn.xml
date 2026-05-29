@@ -1,0 +1,513 @@
+<profile>
+  <RunData>
+    <RUN_TYPE>synth</RUN_TYPE>
+    <VIVADO_VERSION>v.2022.2</VIVADO_VERSION>
+    <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+  </RunData>
+  <TimingReport>
+    <TargetClockPeriod>5.000</TargetClockPeriod>
+    <AchievedClockPeriod>3.884</AchievedClockPeriod>
+    <CLOCK_NAME>ap_clk</CLOCK_NAME>
+    <CP_FINAL>3.884</CP_FINAL>
+    <CP_ROUTE>NA</CP_ROUTE>
+    <CP_SYNTH>3.884</CP_SYNTH>
+    <CP_TARGET>5.000</CP_TARGET>
+    <SLACK_FINAL>1.116</SLACK_FINAL>
+    <SLACK_ROUTE/>
+    <SLACK_SYNTH>1.116</SLACK_SYNTH>
+    <TIMING_MET>TRUE</TIMING_MET>
+    <TNS_FINAL>0.000</TNS_FINAL>
+    <TNS_ROUTE>NA</TNS_ROUTE>
+    <TNS_SYNTH>0.000</TNS_SYNTH>
+    <WNS_FINAL>1.719</WNS_FINAL>
+    <WNS_ROUTE>NA</WNS_ROUTE>
+    <WNS_SYNTH>1.719</WNS_SYNTH>
+  </TimingReport>
+  <AreaReport>
+    <Resources>
+      <BRAM>0</BRAM>
+      <CLB>0</CLB>
+      <DSP>123</DSP>
+      <FF>1676</FF>
+      <LATCH>0</LATCH>
+      <LUT>633</LUT>
+      <SRL>0</SRL>
+      <URAM>0</URAM>
+    </Resources>
+    <AvailableResources>
+      <BRAM>280</BRAM>
+      <CLB>0</CLB>
+      <DSP>220</DSP>
+      <FF>106400</FF>
+      <LUT>53200</LUT>
+      <URAM>0</URAM>
+    </AvailableResources>
+  </AreaReport>
+  <RtlModules>
+    <RtlModule CELL="inst" DEPTH="0" IS_TOP="1" TYPE="function" MODULENAME="matrix_mult" DISPNAME="inst" RTLNAME="matrix_mult">
+      <SubModules count="81">mac_muladd_8s_8s_16ns_16_4_1_U100 mac_muladd_8s_8s_16ns_16_4_1_U105 mac_muladd_8s_8s_16ns_16_4_1_U106 mac_muladd_8s_8s_16ns_16_4_1_U109 mac_muladd_8s_8s_16ns_16_4_1_U111 mac_muladd_8s_8s_16ns_16_4_1_U113 mac_muladd_8s_8s_16ns_16_4_1_U115 mac_muladd_8s_8s_16ns_16_4_1_U119 mac_muladd_8s_8s_16ns_16_4_1_U120 mac_muladd_8s_8s_16ns_16_4_1_U121 mac_muladd_8s_8s_16ns_16_4_1_U123 mac_muladd_8s_8s_16ns_16_4_1_U125 mac_muladd_8s_8s_16ns_16_4_1_U59 mac_muladd_8s_8s_16ns_16_4_1_U60 mac_muladd_8s_8s_16ns_16_4_1_U65 mac_muladd_8s_8s_16ns_16_4_1_U66 mac_muladd_8s_8s_16ns_16_4_1_U71 mac_muladd_8s_8s_16ns_16_4_1_U72 mac_muladd_8s_8s_16ns_16_4_1_U77 mac_muladd_8s_8s_16ns_16_4_1_U78 mac_muladd_8s_8s_16ns_16_4_1_U86 mac_muladd_8s_8s_16ns_16_4_1_U87 mac_muladd_8s_8s_16ns_16_4_1_U93 mac_muladd_8s_8s_16ns_16_4_1_U94 mac_muladd_8s_8s_16ns_16_4_1_U99 mac_muladd_8s_8s_16s_16_4_1_U101 mac_muladd_8s_8s_16s_16_4_1_U102 mac_muladd_8s_8s_16s_16_4_1_U103 mac_muladd_8s_8s_16s_16_4_1_U104 mac_muladd_8s_8s_16s_16_4_1_U107 mac_muladd_8s_8s_16s_16_4_1_U108 mac_muladd_8s_8s_16s_16_4_1_U110 mac_muladd_8s_8s_16s_16_4_1_U112 mac_muladd_8s_8s_16s_16_4_1_U114 mac_muladd_8s_8s_16s_16_4_1_U116 mac_muladd_8s_8s_16s_16_4_1_U117 mac_muladd_8s_8s_16s_16_4_1_U118 mac_muladd_8s_8s_16s_16_4_1_U122 mac_muladd_8s_8s_16s_16_4_1_U124 mac_muladd_8s_8s_16s_16_4_1_U51 mac_muladd_8s_8s_16s_16_4_1_U52 mac_muladd_8s_8s_16s_16_4_1_U53 mac_muladd_8s_8s_16s_16_4_1_U54 mac_muladd_8s_8s_16s_16_4_1_U55 mac_muladd_8s_8s_16s_16_4_1_U56 mac_muladd_8s_8s_16s_16_4_1_U57 mac_muladd_8s_8s_16s_16_4_1_U58 mac_muladd_8s_8s_16s_16_4_1_U61 mac_muladd_8s_8s_16s_16_4_1_U62 mac_muladd_8s_8s_16s_16_4_1_U63 mac_muladd_8s_8s_16s_16_4_1_U64 mac_muladd_8s_8s_16s_16_4_1_U67 mac_muladd_8s_8s_16s_16_4_1_U68 mac_muladd_8s_8s_16s_16_4_1_U69 mac_muladd_8s_8s_16s_16_4_1_U70 mac_muladd_8s_8s_16s_16_4_1_U73 mac_muladd_8s_8s_16s_16_4_1_U74 mac_muladd_8s_8s_16s_16_4_1_U75 mac_muladd_8s_8s_16s_16_4_1_U76 mac_muladd_8s_8s_16s_16_4_1_U79 mac_muladd_8s_8s_16s_16_4_1_U80 mac_muladd_8s_8s_16s_16_4_1_U81 mac_muladd_8s_8s_16s_16_4_1_U82 mac_muladd_8s_8s_16s_16_4_1_U83 mac_muladd_8s_8s_16s_16_4_1_U84 mac_muladd_8s_8s_16s_16_4_1_U85 mac_muladd_8s_8s_16s_16_4_1_U88 mac_muladd_8s_8s_16s_16_4_1_U89 mac_muladd_8s_8s_16s_16_4_1_U90 mac_muladd_8s_8s_16s_16_4_1_U91 mac_muladd_8s_8s_16s_16_4_1_U92 mac_muladd_8s_8s_16s_16_4_1_U95 mac_muladd_8s_8s_16s_16_4_1_U96 mac_muladd_8s_8s_16s_16_4_1_U97 mac_muladd_8s_8s_16s_16_4_1_U98 mul_8s_8s_16_3_1_U37 mul_8s_8s_16_3_1_U38 mul_8s_8s_16_3_1_U39 mul_8s_8s_16_3_1_U40 mul_8s_8s_16_3_1_U6 mul_8s_8s_16_3_1_U8</SubModules>
+      <Resources DSP="123" FF="1676" LUT="633"/>
+      <LocalResources DSP="42" FF="1676" LUT="621"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U100" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U100" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1" LUT="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U100" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_67"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U100" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_54"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U105" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U105" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U105" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_72"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U105" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_58"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U106" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U106" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U106" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_77"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U106" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_62"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U109" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U109" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U109" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_82"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U109" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_66"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U111" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U111" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1" LUT="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U111" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_87"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U111" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_70"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U113" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U113" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U113" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_92"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U113" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_74"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U115" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U115" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U115" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_97"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U115" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_78"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U119" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U119" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U119" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_102"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U119" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_82"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U120" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U120" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1" LUT="2"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U120" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_107"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U120" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_86"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U121" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U121" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U121" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_112"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U121" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_90"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U123" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U123" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U123" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_117"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U123" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_94"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U125" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U125" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1" LUT="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U125" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_122"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U125" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_98"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U59" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U59" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1" LUT="2"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U59" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_2"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U59" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_2"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U60" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U60" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U60" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_7"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U60" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_6"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U65" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U65" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U65" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_12"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U65" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_10"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U66" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U66" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1" LUT="2"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U66" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_17"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U66" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_14"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U71" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U71" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U71" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_22"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U71" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_18"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U72" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U72" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U72" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_27"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U72" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_22"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U77" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U77" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U77" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_32"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U77" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_26"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U78" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U78" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U78" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_37"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U78" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_30"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U86" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U86" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U86" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_42"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U86" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_34"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U87" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U87" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1" LUT="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U87" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_47"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U87" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_38"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U93" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U93" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U93" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_52"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U93" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_42"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U94" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U94" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U94" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_57"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U94" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_46"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16ns_16_4_1_U99" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16ns_16_4_1" DISPNAME="mac_muladd_8s_8s_16ns_16_4_1_U99" RTLNAME="matrix_mult_mac_muladd_8s_8s_16ns_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U99" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_62"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16ns_16_4_1_U99" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_50"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U101" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U101" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U101" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_55"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U101" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_44"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U102" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U102" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U102" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_60"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U102" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_48"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U103" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U103" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U103" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_65"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U103" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_52"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U104" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U104" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U104" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_70"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U104" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_56"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U107" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U107" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U107" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_75"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U107" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_60"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U108" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U108" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U108" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_80"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U108" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_64"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U110" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U110" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U110" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_85"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U110" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_68"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U112" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U112" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U112" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_90"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U112" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_72"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U114" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U114" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U114" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_95"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U114" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_76"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U116" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U116" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U116" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_100"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U116" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_80"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U117" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U117" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U117" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_105"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U117" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_84"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U118" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U118" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U118" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_110"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U118" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_88"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U122" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U122" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U122" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_115"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U122" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_92"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U124" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U124" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U124" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_120"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U124" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_96"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U51" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U51" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U51" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_4"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U51" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_1"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U52" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U52" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U52" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_9"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U52" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_5"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U53" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U53" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U53" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_29"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U53" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_21"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U54" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U54" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1" LUT="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U54" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_34"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U54" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_25"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U55" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U55" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U55" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_14"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U55" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_9"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U56" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U56" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U56" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_19"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U56" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_13"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U57" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U57" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U57" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_39"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U57" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_29"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U58" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U58" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U58" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_44"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U58" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_33"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U61" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U61" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U61" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_24"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U61" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_17"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U62" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U62" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U62" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_49"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U62" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_37"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U63" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U63" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U63" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_54"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U63" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_41"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U64" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U64" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U64" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_59"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U64" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_45"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U67" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U67" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U67" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_64"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U67" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_49"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U68" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U68" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U68" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_69"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U68" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_53"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U69" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U69" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U69" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_74"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U69" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_57"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U70" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U70" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U70" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_79"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U70" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_61"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U73" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U73" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U73" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_84"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U73" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_65"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U74" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U74" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U74" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_89"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U74" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_69"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U75" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U75" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U75" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_94"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U75" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_73"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U76" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U76" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U76" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_99"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U76" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_77"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U79" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U79" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U79" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_104"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U79" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_81"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U80" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U80" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U80" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_109"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U80" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_85"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U81" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U81" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U81" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_114"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U81" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_89"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U82" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U82" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U82" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_119"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U82" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_93"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U83" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U83" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U83" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U83" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U84" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U84" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U84" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_5"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U84" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_4"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U85" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U85" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U85" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_10"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U85" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_8"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U88" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U88" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U88" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_124"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U88" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_97"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U89" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U89" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U89" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_15"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U89" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_12"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U90" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U90" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U90" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_20"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U90" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_16"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U91" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U91" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U91" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_25"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U91" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_20"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U92" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U92" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U92" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_30"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U92" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_24"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U95" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U95" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U95" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_35"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U95" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_28"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U96" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U96" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U96" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_40"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U96" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_32"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U97" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U97" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U97" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_45"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U97" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_36"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mac_muladd_8s_8s_16s_16_4_1_U98" BINDMODULE="matrix_mult_mac_muladd_8s_8s_16s_16_4_1" DEPTH="1" TYPE="resource" MODULENAME="mac_muladd_8s_8s_16s_16_4_1" DISPNAME="mac_muladd_8s_8s_16s_16_4_1_U98" RTLNAME="matrix_mult_mac_muladd_8s_8s_16s_16_4_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U98" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_50"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp48" LATENCY="3" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8s_8s_16s_16_4_1_U98" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="add_ln16_40"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mul_8s_8s_16_3_1_U37" BINDMODULE="matrix_mult_mul_8s_8s_16_3_1" DEPTH="1" TYPE="resource" MODULENAME="mul_8s_8s_16_3_1" DISPNAME="mul_8s_8s_16_3_1_U37" RTLNAME="matrix_mult_mul_8s_8s_16_3_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp" LATENCY="2" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_8s_8s_16_3_1_U37" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_56"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mul_8s_8s_16_3_1_U38" BINDMODULE="matrix_mult_mul_8s_8s_16_3_1" DEPTH="1" TYPE="resource" MODULENAME="mul_8s_8s_16_3_1" DISPNAME="mul_8s_8s_16_3_1_U38" RTLNAME="matrix_mult_mul_8s_8s_16_3_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp" LATENCY="2" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_8s_8s_16_3_1_U38" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_61"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mul_8s_8s_16_3_1_U39" BINDMODULE="matrix_mult_mul_8s_8s_16_3_1" DEPTH="1" TYPE="resource" MODULENAME="mul_8s_8s_16_3_1" DISPNAME="mul_8s_8s_16_3_1_U39" RTLNAME="matrix_mult_mul_8s_8s_16_3_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp" LATENCY="2" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_8s_8s_16_3_1_U39" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_66"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mul_8s_8s_16_3_1_U40" BINDMODULE="matrix_mult_mul_8s_8s_16_3_1" DEPTH="1" TYPE="resource" MODULENAME="mul_8s_8s_16_3_1" DISPNAME="mul_8s_8s_16_3_1_U40" RTLNAME="matrix_mult_mul_8s_8s_16_3_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp" LATENCY="2" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_8s_8s_16_3_1_U40" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_71"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mul_8s_8s_16_3_1_U6" BINDMODULE="matrix_mult_mul_8s_8s_16_3_1" DEPTH="1" TYPE="resource" MODULENAME="mul_8s_8s_16_3_1" DISPNAME="mul_8s_8s_16_3_1_U6" RTLNAME="matrix_mult_mul_8s_8s_16_3_1">
+      <Resources DSP="1" LUT="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp" LATENCY="2" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_8s_8s_16_3_1_U6" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_18"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mul_8s_8s_16_3_1_U8" BINDMODULE="matrix_mult_mul_8s_8s_16_3_1" DEPTH="1" TYPE="resource" MODULENAME="mul_8s_8s_16_3_1" DISPNAME="mul_8s_8s_16_3_1_U8" RTLNAME="matrix_mult_mul_8s_8s_16_3_1">
+      <Resources DSP="1"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp" LATENCY="2" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_8s_8s_16_3_1_U8" SOURCE="matrix_mult.cpp:16" URAM="0" VARIABLE="mul_ln16_43"/>
+    </RtlModule>
+  </RtlModules>
+  <TimingPaths>
+    <TPATH DATAPATH_DELAY="2.683" DATAPATH_LOGIC_DELAY="0.813" DATAPATH_NET_DELAY="1.870" ENDPOINT_PIN="mul_8s_8s_16_3_1_U8/buff0_reg/CEB1" LOGIC_LEVELS="1" MAX_FANOUT="126" SLACK="1.719" STARTPOINT_PIN="ap_CS_fsm_reg[1]/C">
+      <CELL NAME="ap_CS_fsm_reg[1]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" LINE_NUMBER="2911"/>
+      <CELL NAME="mul_8s_8s_16_3_1_U6/reg_602[6]_i_1" PRIMITIVE_TYPE="LUT.others.LUT6" LINE_NUMBER="2921"/>
+      <CELL NAME="mul_8s_8s_16_3_1_U8/buff0_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" LINE_NUMBER="27"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.683" DATAPATH_LOGIC_DELAY="0.813" DATAPATH_NET_DELAY="1.870" ENDPOINT_PIN="mul_ln16_33_reg_1956_reg/CEB1" LOGIC_LEVELS="1" MAX_FANOUT="126" SLACK="1.719" STARTPOINT_PIN="ap_CS_fsm_reg[1]/C">
+      <CELL NAME="ap_CS_fsm_reg[1]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" LINE_NUMBER="2911"/>
+      <CELL NAME="mul_8s_8s_16_3_1_U6/reg_602[6]_i_1" PRIMITIVE_TYPE="LUT.others.LUT6" LINE_NUMBER="2921"/>
+      <CELL NAME="mul_ln16_33_reg_1956_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" LINE_NUMBER="27"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.683" DATAPATH_LOGIC_DELAY="0.813" DATAPATH_NET_DELAY="1.870" ENDPOINT_PIN="mul_ln16_8_reg_1919_reg/CEB1" LOGIC_LEVELS="1" MAX_FANOUT="126" SLACK="1.719" STARTPOINT_PIN="ap_CS_fsm_reg[1]/C">
+      <CELL NAME="ap_CS_fsm_reg[1]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" LINE_NUMBER="2911"/>
+      <CELL NAME="mul_8s_8s_16_3_1_U6/reg_602[6]_i_1" PRIMITIVE_TYPE="LUT.others.LUT6" LINE_NUMBER="2921"/>
+      <CELL NAME="mul_ln16_8_reg_1919_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" LINE_NUMBER="27"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.683" DATAPATH_LOGIC_DELAY="0.813" DATAPATH_NET_DELAY="1.870" ENDPOINT_PIN="mul_8s_8s_16_3_1_U6/buff0_reg/CEA1" LOGIC_LEVELS="1" MAX_FANOUT="126" SLACK="1.736" STARTPOINT_PIN="ap_CS_fsm_reg[1]/C">
+      <CELL NAME="ap_CS_fsm_reg[1]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" LINE_NUMBER="2911"/>
+      <CELL NAME="mul_8s_8s_16_3_1_U6/reg_602[6]_i_1" PRIMITIVE_TYPE="LUT.others.LUT6" LINE_NUMBER="2921"/>
+      <CELL NAME="mul_8s_8s_16_3_1_U6/buff0_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" LINE_NUMBER="27"/>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.528" DATAPATH_LOGIC_DELAY="0.813" DATAPATH_NET_DELAY="1.715" ENDPOINT_PIN="mac_muladd_8s_8s_16s_16_4_1_U54/matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U/p_reg_reg/CEB1" LOGIC_LEVELS="1" MAX_FANOUT="148" SLACK="1.874" STARTPOINT_PIN="ap_CS_fsm_reg[3]/C">
+      <CELL NAME="ap_CS_fsm_reg[3]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" LINE_NUMBER="2911"/>
+      <CELL NAME="mac_muladd_8s_8s_16s_16_4_1_U54/matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U/reg_614[6]_i_1" PRIMITIVE_TYPE="LUT.others.LUT5" LINE_NUMBER="2921"/>
+      <CELL NAME="mac_muladd_8s_8s_16s_16_4_1_U54/matrix_mult_mac_muladd_8s_8s_16s_16_4_1_DSP48_0_U/p_reg_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" LINE_NUMBER="31"/>
+    </TPATH>
+  </TimingPaths>
+  <VivadoReportFiles>
+    <ReportFile TYPE="design_analysis" PATH="verilog/report/matrix_mult_design_analysis_synth.rpt"/>
+    <ReportFile TYPE="failfast" PATH="verilog/report/matrix_mult_failfast_synth.rpt"/>
+    <ReportFile TYPE="timing" PATH="verilog/report/matrix_mult_timing_synth.rpt"/>
+    <ReportFile TYPE="timing_paths" PATH="verilog/report/matrix_mult_timing_paths_synth.rpt"/>
+    <ReportFile TYPE="utilization" PATH="verilog/report/matrix_mult_utilization_synth.rpt"/>
+    <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/matrix_mult_utilization_hierarchical_synth.rpt"/>
+  </VivadoReportFiles>
+  <GeneralInfo NAME="General Information">
+    <item NAME="Date" VALUE="Mon May 25 15:50:39 +0700 2026"/>
+    <item NAME="Version" VALUE="2022.2 (Build 3670227 on Oct 13 2022)"/>
+    <item NAME="Project" VALUE="matrix_mult_prj"/>
+    <item NAME="Solution" VALUE="solution5 (Vivado IP Flow Target)"/>
+    <item NAME="Product family" VALUE="zynq"/>
+    <item NAME="Target device" VALUE="xc7z020-clg484-1"/>
+  </GeneralInfo>
+  <RunOptions NAME="Run Constraints &amp; Options">
+    <General NAME="Design Constraints &amp; Options">
+      <item NAME="RTL Synthesis target clock" VALUE="5 ns"/>
+      <item NAME="C-Synthesis target clock" VALUE="5 ns"/>
+      <item NAME="C-Synthesis uncertainty" VALUE="27%"/>
+      <item NAME="config_export -ip_xdc_file" VALUE=""/>
+      <item NAME="config_export -ip_xdc_ooc_file" VALUE=""/>
+    </General>
+    <Syn NAME="RTL Synthesis Options">
+      <item NAME="config_export -vivado_synth_strategy" VALUE="default"/>
+      <item NAME="config_export -vivado_synth_design_args" VALUE="-directive sdx_optimization_effort_high"/>
+    </Syn>
+    <Reporting NAME="Reporting Options">
+      <item NAME="config_export -vivado_report_level" VALUE="2"/>
+      <item NAME="config_export -vivado_max_timing_paths" VALUE="10"/>
+    </Reporting>
+  </RunOptions>
+</profile>
+

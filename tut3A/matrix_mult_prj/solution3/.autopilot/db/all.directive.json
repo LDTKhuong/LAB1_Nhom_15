@@ -1,0 +1,44 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "matrix_mult",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "C:\/HOC\/HW_SW\/zynq-book-master\/hls\/tut3A\/matrix_mult_prj\/solution3\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "matrix_mult"
+              }]
+          }
+        },
+        {
+          "functionName": "matrix_mult",
+          "label": "Col",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "C:\/HOC\/HW_SW\/zynq-book-master\/hls\/tut3A\/matrix_mult_prj\/solution3\/directives.tcl",
+          "sourceLine": "7",
+          "pragma": {"name": "PIPELINE"}
+        },
+        {
+          "functionName": "matrix_mult",
+          "label": "",
+          "functionLabel": "",
+          "id": "3",
+          "sourceFile": "C:\/HOC\/HW_SW\/zynq-book-master\/hls\/tut3A\/matrix_mult_prj\/solution3\/csynth.tcl",
+          "sourceLine": "16",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "matrix_mult"
+              }]
+          }
+        }
+      ]
+    }]}
